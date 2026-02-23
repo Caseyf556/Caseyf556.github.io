@@ -1,13 +1,45 @@
+/* Basic page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
     line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
 }
 
+/* Headings */
 h1 {
-    color: #333;
+    color: #222222;
+    margin-bottom: 20px;
 }
 
+h2 {
+    color: #444444;
+    margin-top: 30px;
+}
+
+/* Links */
 a {
     color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 15px;
+}
+
+/* Optional container for cleaner layout */
+.container {
+    max-width: 900px;
+    margin: auto;
 }
