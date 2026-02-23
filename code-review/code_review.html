@@ -10,12 +10,28 @@
 
 <h2>Video Link</h2>
 <p>
-<a href="[PASTE YOUR VIDEO LINK HERE]" target="_blank">Watch Code Review Video</a>
+<a href="https://www.youtube.com/watch?v=p4ZVX3YDbbs" target="_blank">Watch Code Review Video</a>
 </p>
 
 <h2>Code Review Narrative</h2>
 <p>
-[PASTE YOUR CODE REVIEW NARRATIVE HERE]
+For my code review, I examined the original version of my ContactService.java file from CS‑320. This file managed contact information using an ArrayList and performed all operations through linear searches. While the original implementation worked for small datasets, it became inefficient and difficult to maintain as the number of contacts increased. The code review helped me identify several areas for improvement before beginning my enhancements.
+</p>
+
+<p>
+During the review, I focused on three main aspects: functionality, readability and maintainability, and testing and error handling. Functionally, the code performed basic CRUD operations, but the use of an ArrayList caused performance issues because every lookup required scanning the entire list. I also noticed that the update methods repeated similar logic, which made the code harder to maintain. Additionally, the validation checks were inconsistent, and some methods lacked clear error handling.
+</p>
+
+<p>
+From a readability standpoint, the code could benefit from better organization and more descriptive method names. The update methods were especially repetitive, and consolidating them would make the code cleaner and easier to understand. I also identified opportunities to improve comments and documentation so future developers could follow the logic more easily.
+</p>
+
+<p>
+The code review process helped me plan my enhancements. I decided to replace the ArrayList with a HashMap to improve lookup efficiency. I also planned to restructure the update methods to reduce duplication and strengthen validation. These improvements would make the program more scalable, maintainable, and aligned with real‑world software engineering practices.
+</p>
+
+<p>
+Overall, the code review provided a clear roadmap for my enhancements and demonstrated my ability to analyze existing code, identify weaknesses, and plan meaningful improvements.
 </p>
 
 </body>
