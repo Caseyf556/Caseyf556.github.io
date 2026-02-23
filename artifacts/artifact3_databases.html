@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Artifact – Databases</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<h1>Database Enhancement – SQLite Integration</h1>
+
+<h2>Artifact Description</h2>
+<p>
+The artifact I selected for this database enhancement is the same ContactService.java file I originally created in CS‑320. In its earliest form, the program stored all contact information in memory using an ArrayList. While this approach worked for small datasets, it lacked persistence, scalability, and the structure needed for real‑world applications. For this milestone, I expanded the artifact by integrating a fully functional SQLite database, transforming the project from a simple in‑memory manager into a persistent data‑driven system.
+</p>
+
+<h2>Justification for Inclusion</h2>
+<p>
+I chose to include this artifact in my ePortfolio because it demonstrates my ability to evolve a basic program into a more professional, database‑backed application. The enhancement required designing a database schema, implementing SQL queries, creating a DAO (Data Access Object) layer, and updating the service logic to interact with persistent storage. These changes show that I can apply database concepts such as CRUD operations, data validation, and structured storage in a practical software engineering context.
+</p>
+
+<h2>Course Outcomes Met</h2>
+<p>
+This enhancement directly supports multiple CS‑499 course outcomes. I improved algorithmic thinking by redesigning how data is stored and retrieved. I applied well‑founded software engineering techniques by separating business logic from data access logic. I also strengthened my security mindset by validating input and using prepared statements to prevent SQL injection.
+</p>
+
+<h2>Reflection</h2>
+<p>
+Enhancing this artifact taught me how important structured data storage is for real applications. Moving from an ArrayList to a database required rethinking how the program interacts with data. I had to design a schema, write SQL queries, and ensure that the application handled errors gracefully. This process helped me understand the importance of modular design and long‑term maintainability.
+</p>
+
+<h2>Original Code</h2>
+<p><a href="../files/ContactService_Original.java">Download Original Code</a></p>
+
+<h2>Enhanced Code</h2>
+<p>
+<a href="../files/DatabaseConnection.java">DatabaseConnection.java</a><br>
+<a href="../files/ContactDAO.java">ContactDAO.java</a><br>
+<a href="../files/ContactService_DatabaseVersion.java">ContactService_DatabaseVersion.java</a><br>
+<a href="../files/contacts.sql">contacts.sql</a>
+</p>
+
+</body>
+</html>
